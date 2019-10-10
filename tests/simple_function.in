@@ -1,0 +1,8 @@
+/* Simple function with 2 parameters that perform addition and multiplication operations. */
+
+static int sum(int a, int b) {
+    int c; int result;
+    result = a + b;
+    c = a * b;
+    return result;
+    }

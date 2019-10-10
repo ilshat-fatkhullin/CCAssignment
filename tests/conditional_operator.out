@@ -1,0 +1,658 @@
+{
+    "compilationUnit": [
+        {
+            "externalDeclaration": {
+                "functionDefinition": [
+                    {
+                        "declarationSpecifiers": {
+                            "declarationSpecifier": {
+                                "typeSpecifier": "int"
+                            }
+                        }
+                    },
+                    {
+                        "declarator": {
+                            "directDeclarator": [
+                                {
+                                    "directDeclarator": "main"
+                                },
+                                "(",
+                                ")"
+                            ]
+                        }
+                    },
+                    {
+                        "compoundStatement": [
+                            "{",
+                            {
+                                "blockItemList": [
+                                    {
+                                        "blockItem": {
+                                            "declaration": [
+                                                {
+                                                    "declarationSpecifiers": {
+                                                        "declarationSpecifier": {
+                                                            "typeSpecifier": "char"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "initDeclaratorList": {
+                                                        "initDeclarator": {
+                                                            "declarator": {
+                                                                "directDeclarator": "February"
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                ";"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "blockItem": {
+                                            "declaration": [
+                                                {
+                                                    "declarationSpecifiers": {
+                                                        "declarationSpecifier": {
+                                                            "typeSpecifier": "int"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "initDeclaratorList": {
+                                                        "initDeclarator": {
+                                                            "declarator": {
+                                                                "directDeclarator": "days"
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                ";"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "blockItem": {
+                                            "statement": {
+                                                "expressionStatement": [
+                                                    {
+                                                        "expression": {
+                                                            "assignmentExpression": {
+                                                                "conditionalExpression": {
+                                                                    "logicalOrExpression": {
+                                                                        "logicalAndExpression": {
+                                                                            "inclusiveOrExpression": {
+                                                                                "exclusiveOrExpression": {
+                                                                                    "andExpression": {
+                                                                                        "equalityExpression": {
+                                                                                            "relationalExpression": {
+                                                                                                "shiftExpression": {
+                                                                                                    "additiveExpression": {
+                                                                                                        "multiplicativeExpression": {
+                                                                                                            "castExpression": {
+                                                                                                                "unaryExpression": {
+                                                                                                                    "postfixExpression": [
+                                                                                                                        {
+                                                                                                                            "postfixExpression": {
+                                                                                                                                "primaryExpression": "printf"
+                                                                                                                            }
+                                                                                                                        },
+                                                                                                                        "(",
+                                                                                                                        {
+                                                                                                                            "argumentExpressionList": {
+                                                                                                                                "assignmentExpression": {
+                                                                                                                                    "conditionalExpression": {
+                                                                                                                                        "logicalOrExpression": {
+                                                                                                                                            "logicalAndExpression": {
+                                                                                                                                                "inclusiveOrExpression": {
+                                                                                                                                                    "exclusiveOrExpression": {
+                                                                                                                                                        "andExpression": {
+                                                                                                                                                            "equalityExpression": {
+                                                                                                                                                                "relationalExpression": {
+                                                                                                                                                                    "shiftExpression": {
+                                                                                                                                                                        "additiveExpression": {
+                                                                                                                                                                            "multiplicativeExpression": {
+                                                                                                                                                                                "castExpression": {
+                                                                                                                                                                                    "unaryExpression": {
+                                                                                                                                                                                        "postfixExpression": {
+                                                                                                                                                                                            "primaryExpression": "\"If this year is leap year, enter 1. If not enter any integer: \""
+                                                                                                                                                                                        }
+                                                                                                                                                                                    }
+                                                                                                                                                                                }
+                                                                                                                                                                            }
+                                                                                                                                                                        }
+                                                                                                                                                                    }
+                                                                                                                                                                }
+                                                                                                                                                            }
+                                                                                                                                                        }
+                                                                                                                                                    }
+                                                                                                                                                }
+                                                                                                                                            }
+                                                                                                                                        }
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                        },
+                                                                                                                        ")"
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    ";"
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "blockItem": {
+                                            "statement": {
+                                                "expressionStatement": [
+                                                    {
+                                                        "expression": {
+                                                            "assignmentExpression": {
+                                                                "conditionalExpression": {
+                                                                    "logicalOrExpression": {
+                                                                        "logicalAndExpression": {
+                                                                            "inclusiveOrExpression": {
+                                                                                "exclusiveOrExpression": {
+                                                                                    "andExpression": {
+                                                                                        "equalityExpression": {
+                                                                                            "relationalExpression": {
+                                                                                                "shiftExpression": {
+                                                                                                    "additiveExpression": {
+                                                                                                        "multiplicativeExpression": {
+                                                                                                            "castExpression": {
+                                                                                                                "unaryExpression": {
+                                                                                                                    "postfixExpression": [
+                                                                                                                        {
+                                                                                                                            "postfixExpression": {
+                                                                                                                                "primaryExpression": "scanf"
+                                                                                                                            }
+                                                                                                                        },
+                                                                                                                        "(",
+                                                                                                                        {
+                                                                                                                            "argumentExpressionList": [
+                                                                                                                                {
+                                                                                                                                    "argumentExpressionList": {
+                                                                                                                                        "assignmentExpression": {
+                                                                                                                                            "conditionalExpression": {
+                                                                                                                                                "logicalOrExpression": {
+                                                                                                                                                    "logicalAndExpression": {
+                                                                                                                                                        "inclusiveOrExpression": {
+                                                                                                                                                            "exclusiveOrExpression": {
+                                                                                                                                                                "andExpression": {
+                                                                                                                                                                    "equalityExpression": {
+                                                                                                                                                                        "relationalExpression": {
+                                                                                                                                                                            "shiftExpression": {
+                                                                                                                                                                                "additiveExpression": {
+                                                                                                                                                                                    "multiplicativeExpression": {
+                                                                                                                                                                                        "castExpression": {
+                                                                                                                                                                                            "unaryExpression": {
+                                                                                                                                                                                                "postfixExpression": {
+                                                                                                                                                                                                    "primaryExpression": "\"%c\""
+                                                                                                                                                                                                }
+                                                                                                                                                                                            }
+                                                                                                                                                                                        }
+                                                                                                                                                                                    }
+                                                                                                                                                                                }
+                                                                                                                                                                            }
+                                                                                                                                                                        }
+                                                                                                                                                                    }
+                                                                                                                                                                }
+                                                                                                                                                            }
+                                                                                                                                                        }
+                                                                                                                                                    }
+                                                                                                                                                }
+                                                                                                                                            }
+                                                                                                                                        }
+                                                                                                                                    }
+                                                                                                                                },
+                                                                                                                                ",",
+                                                                                                                                {
+                                                                                                                                    "assignmentExpression": {
+                                                                                                                                        "conditionalExpression": {
+                                                                                                                                            "logicalOrExpression": {
+                                                                                                                                                "logicalAndExpression": {
+                                                                                                                                                    "inclusiveOrExpression": {
+                                                                                                                                                        "exclusiveOrExpression": {
+                                                                                                                                                            "andExpression": {
+                                                                                                                                                                "equalityExpression": {
+                                                                                                                                                                    "relationalExpression": {
+                                                                                                                                                                        "shiftExpression": {
+                                                                                                                                                                            "additiveExpression": {
+                                                                                                                                                                                "multiplicativeExpression": {
+                                                                                                                                                                                    "castExpression": {
+                                                                                                                                                                                        "unaryExpression": [
+                                                                                                                                                                                            {
+                                                                                                                                                                                                "unaryOperator": "&"
+                                                                                                                                                                                            },
+                                                                                                                                                                                            {
+                                                                                                                                                                                                "castExpression": {
+                                                                                                                                                                                                    "unaryExpression": {
+                                                                                                                                                                                                        "postfixExpression": {
+                                                                                                                                                                                                            "primaryExpression": "February"
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                }
+                                                                                                                                                                                            }
+                                                                                                                                                                                        ]
+                                                                                                                                                                                    }
+                                                                                                                                                                                }
+                                                                                                                                                                            }
+                                                                                                                                                                        }
+                                                                                                                                                                    }
+                                                                                                                                                                }
+                                                                                                                                                            }
+                                                                                                                                                        }
+                                                                                                                                                    }
+                                                                                                                                                }
+                                                                                                                                            }
+                                                                                                                                        }
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        ")"
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    ";"
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "blockItem": {
+                                            "statement": {
+                                                "expressionStatement": [
+                                                    {
+                                                        "expression": {
+                                                            "assignmentExpression": [
+                                                                {
+                                                                    "unaryExpression": {
+                                                                        "postfixExpression": {
+                                                                            "primaryExpression": "days"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "assignmentOperator": "="
+                                                                },
+                                                                {
+                                                                    "assignmentExpression": {
+                                                                        "conditionalExpression": [
+                                                                            {
+                                                                                "logicalOrExpression": {
+                                                                                    "logicalAndExpression": {
+                                                                                        "inclusiveOrExpression": {
+                                                                                            "exclusiveOrExpression": {
+                                                                                                "andExpression": {
+                                                                                                    "equalityExpression": {
+                                                                                                        "relationalExpression": {
+                                                                                                            "shiftExpression": {
+                                                                                                                "additiveExpression": {
+                                                                                                                    "multiplicativeExpression": {
+                                                                                                                        "castExpression": {
+                                                                                                                            "unaryExpression": {
+                                                                                                                                "postfixExpression": {
+                                                                                                                                    "primaryExpression": [
+                                                                                                                                        "(",
+                                                                                                                                        {
+                                                                                                                                            "expression": {
+                                                                                                                                                "assignmentExpression": {
+                                                                                                                                                    "conditionalExpression": {
+                                                                                                                                                        "logicalOrExpression": {
+                                                                                                                                                            "logicalAndExpression": {
+                                                                                                                                                                "inclusiveOrExpression": {
+                                                                                                                                                                    "exclusiveOrExpression": {
+                                                                                                                                                                        "andExpression": {
+                                                                                                                                                                            "equalityExpression": [
+                                                                                                                                                                                {
+                                                                                                                                                                                    "equalityExpression": {
+                                                                                                                                                                                        "relationalExpression": {
+                                                                                                                                                                                            "shiftExpression": {
+                                                                                                                                                                                                "additiveExpression": {
+                                                                                                                                                                                                    "multiplicativeExpression": {
+                                                                                                                                                                                                        "castExpression": {
+                                                                                                                                                                                                            "unaryExpression": {
+                                                                                                                                                                                                                "postfixExpression": {
+                                                                                                                                                                                                                    "primaryExpression": "February"
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                            }
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                }
+                                                                                                                                                                                            }
+                                                                                                                                                                                        }
+                                                                                                                                                                                    }
+                                                                                                                                                                                },
+                                                                                                                                                                                "==",
+                                                                                                                                                                                {
+                                                                                                                                                                                    "relationalExpression": {
+                                                                                                                                                                                        "shiftExpression": {
+                                                                                                                                                                                            "additiveExpression": {
+                                                                                                                                                                                                "multiplicativeExpression": {
+                                                                                                                                                                                                    "castExpression": {
+                                                                                                                                                                                                        "unaryExpression": {
+                                                                                                                                                                                                            "postfixExpression": {
+                                                                                                                                                                                                                "primaryExpression": "'1'"
+                                                                                                                                                                                                            }
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                }
+                                                                                                                                                                                            }
+                                                                                                                                                                                        }
+                                                                                                                                                                                    }
+                                                                                                                                                                                }
+                                                                                                                                                                            ]
+                                                                                                                                                                        }
+                                                                                                                                                                    }
+                                                                                                                                                                }
+                                                                                                                                                            }
+                                                                                                                                                        }
+                                                                                                                                                    }
+                                                                                                                                                }
+                                                                                                                                            }
+                                                                                                                                        },
+                                                                                                                                        ")"
+                                                                                                                                    ]
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            "?",
+                                                                            {
+                                                                                "expression": {
+                                                                                    "assignmentExpression": {
+                                                                                        "conditionalExpression": {
+                                                                                            "logicalOrExpression": {
+                                                                                                "logicalAndExpression": {
+                                                                                                    "inclusiveOrExpression": {
+                                                                                                        "exclusiveOrExpression": {
+                                                                                                            "andExpression": {
+                                                                                                                "equalityExpression": {
+                                                                                                                    "relationalExpression": {
+                                                                                                                        "shiftExpression": {
+                                                                                                                            "additiveExpression": {
+                                                                                                                                "multiplicativeExpression": {
+                                                                                                                                    "castExpression": {
+                                                                                                                                        "unaryExpression": {
+                                                                                                                                            "postfixExpression": {
+                                                                                                                                                "primaryExpression": "29"
+                                                                                                                                            }
+                                                                                                                                        }
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            ":",
+                                                                            {
+                                                                                "conditionalExpression": {
+                                                                                    "logicalOrExpression": {
+                                                                                        "logicalAndExpression": {
+                                                                                            "inclusiveOrExpression": {
+                                                                                                "exclusiveOrExpression": {
+                                                                                                    "andExpression": {
+                                                                                                        "equalityExpression": {
+                                                                                                            "relationalExpression": {
+                                                                                                                "shiftExpression": {
+                                                                                                                    "additiveExpression": {
+                                                                                                                        "multiplicativeExpression": {
+                                                                                                                            "castExpression": {
+                                                                                                                                "unaryExpression": {
+                                                                                                                                    "postfixExpression": {
+                                                                                                                                        "primaryExpression": "28"
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    ";"
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "blockItem": {
+                                            "statement": {
+                                                "expressionStatement": [
+                                                    {
+                                                        "expression": {
+                                                            "assignmentExpression": {
+                                                                "conditionalExpression": {
+                                                                    "logicalOrExpression": {
+                                                                        "logicalAndExpression": {
+                                                                            "inclusiveOrExpression": {
+                                                                                "exclusiveOrExpression": {
+                                                                                    "andExpression": {
+                                                                                        "equalityExpression": {
+                                                                                            "relationalExpression": {
+                                                                                                "shiftExpression": {
+                                                                                                    "additiveExpression": {
+                                                                                                        "multiplicativeExpression": {
+                                                                                                            "castExpression": {
+                                                                                                                "unaryExpression": {
+                                                                                                                    "postfixExpression": [
+                                                                                                                        {
+                                                                                                                            "postfixExpression": {
+                                                                                                                                "primaryExpression": "printf"
+                                                                                                                            }
+                                                                                                                        },
+                                                                                                                        "(",
+                                                                                                                        {
+                                                                                                                            "argumentExpressionList": [
+                                                                                                                                {
+                                                                                                                                    "argumentExpressionList": {
+                                                                                                                                        "assignmentExpression": {
+                                                                                                                                            "conditionalExpression": {
+                                                                                                                                                "logicalOrExpression": {
+                                                                                                                                                    "logicalAndExpression": {
+                                                                                                                                                        "inclusiveOrExpression": {
+                                                                                                                                                            "exclusiveOrExpression": {
+                                                                                                                                                                "andExpression": {
+                                                                                                                                                                    "equalityExpression": {
+                                                                                                                                                                        "relationalExpression": {
+                                                                                                                                                                            "shiftExpression": {
+                                                                                                                                                                                "additiveExpression": {
+                                                                                                                                                                                    "multiplicativeExpression": {
+                                                                                                                                                                                        "castExpression": {
+                                                                                                                                                                                            "unaryExpression": {
+                                                                                                                                                                                                "postfixExpression": {
+                                                                                                                                                                                                    "primaryExpression": "\"Number of days in February = %d\""
+                                                                                                                                                                                                }
+                                                                                                                                                                                            }
+                                                                                                                                                                                        }
+                                                                                                                                                                                    }
+                                                                                                                                                                                }
+                                                                                                                                                                            }
+                                                                                                                                                                        }
+                                                                                                                                                                    }
+                                                                                                                                                                }
+                                                                                                                                                            }
+                                                                                                                                                        }
+                                                                                                                                                    }
+                                                                                                                                                }
+                                                                                                                                            }
+                                                                                                                                        }
+                                                                                                                                    }
+                                                                                                                                },
+                                                                                                                                ",",
+                                                                                                                                {
+                                                                                                                                    "assignmentExpression": {
+                                                                                                                                        "conditionalExpression": {
+                                                                                                                                            "logicalOrExpression": {
+                                                                                                                                                "logicalAndExpression": {
+                                                                                                                                                    "inclusiveOrExpression": {
+                                                                                                                                                        "exclusiveOrExpression": {
+                                                                                                                                                            "andExpression": {
+                                                                                                                                                                "equalityExpression": {
+                                                                                                                                                                    "relationalExpression": {
+                                                                                                                                                                        "shiftExpression": {
+                                                                                                                                                                            "additiveExpression": {
+                                                                                                                                                                                "multiplicativeExpression": {
+                                                                                                                                                                                    "castExpression": {
+                                                                                                                                                                                        "unaryExpression": {
+                                                                                                                                                                                            "postfixExpression": {
+                                                                                                                                                                                                "primaryExpression": "days"
+                                                                                                                                                                                            }
+                                                                                                                                                                                        }
+                                                                                                                                                                                    }
+                                                                                                                                                                                }
+                                                                                                                                                                            }
+                                                                                                                                                                        }
+                                                                                                                                                                    }
+                                                                                                                                                                }
+                                                                                                                                                            }
+                                                                                                                                                        }
+                                                                                                                                                    }
+                                                                                                                                                }
+                                                                                                                                            }
+                                                                                                                                        }
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        ")"
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    ";"
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "blockItem": {
+                                            "statement": {
+                                                "jumpStatement": [
+                                                    "return",
+                                                    {
+                                                        "expression": {
+                                                            "assignmentExpression": {
+                                                                "conditionalExpression": {
+                                                                    "logicalOrExpression": {
+                                                                        "logicalAndExpression": {
+                                                                            "inclusiveOrExpression": {
+                                                                                "exclusiveOrExpression": {
+                                                                                    "andExpression": {
+                                                                                        "equalityExpression": {
+                                                                                            "relationalExpression": {
+                                                                                                "shiftExpression": {
+                                                                                                    "additiveExpression": {
+                                                                                                        "multiplicativeExpression": {
+                                                                                                            "castExpression": {
+                                                                                                                "unaryExpression": {
+                                                                                                                    "postfixExpression": {
+                                                                                                                        "primaryExpression": "0"
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    ";"
+                                                ]
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "}"
+                        ]
+                    }
+                ]
+            }
+        },
+        "<EOF>"
+    ]
+}
