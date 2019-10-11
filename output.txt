@@ -4,67 +4,19 @@
             "externalDeclaration": {
                 "functionDefinition": [
                     {
-                        "declarationSpecifiers": [
-                            {
-                                "declarationSpecifier": {
-                                    "storageClassSpecifier": "static"
-                                }
-                            },
-                            {
-                                "declarationSpecifier": {
-                                    "typeSpecifier": "int"
-                                }
+                        "declarationSpecifiers": {
+                            "declarationSpecifier": {
+                                "typeSpecifier": "int"
                             }
-                        ]
+                        }
                     },
                     {
                         "declarator": {
                             "directDeclarator": [
                                 {
-                                    "directDeclarator": "sum"
+                                    "directDeclarator": "main"
                                 },
                                 "(",
-                                {
-                                    "parameterTypeList": {
-                                        "parameterList": [
-                                            {
-                                                "parameterList": {
-                                                    "parameterDeclaration": [
-                                                        {
-                                                            "declarationSpecifiers": {
-                                                                "declarationSpecifier": {
-                                                                    "typeSpecifier": "int"
-                                                                }
-                                                            }
-                                                        },
-                                                        {
-                                                            "declarator": {
-                                                                "directDeclarator": "a"
-                                                            }
-                                                        }
-                                                    ]
-                                                }
-                                            },
-                                            ",",
-                                            {
-                                                "parameterDeclaration": [
-                                                    {
-                                                        "declarationSpecifiers": {
-                                                            "declarationSpecifier": {
-                                                                "typeSpecifier": "int"
-                                                            }
-                                                        }
-                                                    },
-                                                    {
-                                                        "declarator": {
-                                                            "directDeclarator": "b"
-                                                        }
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                },
                                 ")"
                             ]
                         }
@@ -86,11 +38,49 @@
                                                 },
                                                 {
                                                     "initDeclaratorList": {
-                                                        "initDeclarator": {
-                                                            "declarator": {
-                                                                "directDeclarator": "c"
+                                                        "initDeclarator": [
+                                                            {
+                                                                "declarator": {
+                                                                    "directDeclarator": "a"
+                                                                }
+                                                            },
+                                                            "=",
+                                                            {
+                                                                "initializer": {
+                                                                    "assignmentExpression": {
+                                                                        "conditionalExpression": {
+                                                                            "logicalOrExpression": {
+                                                                                "logicalAndExpression": {
+                                                                                    "inclusiveOrExpression": {
+                                                                                        "exclusiveOrExpression": {
+                                                                                            "andExpression": {
+                                                                                                "equalityExpression": {
+                                                                                                    "relationalExpression": {
+                                                                                                        "shiftExpression": {
+                                                                                                            "additiveExpression": {
+                                                                                                                "multiplicativeExpression": {
+                                                                                                                    "castExpression": {
+                                                                                                                        "unaryExpression": {
+                                                                                                                            "postfixExpression": {
+                                                                                                                                "primaryExpression": "0"
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
                                                             }
-                                                        }
+                                                        ]
                                                     }
                                                 },
                                                 ";"
@@ -109,11 +99,49 @@
                                                 },
                                                 {
                                                     "initDeclaratorList": {
-                                                        "initDeclarator": {
-                                                            "declarator": {
-                                                                "directDeclarator": "result"
+                                                        "initDeclarator": [
+                                                            {
+                                                                "declarator": {
+                                                                    "directDeclarator": "b"
+                                                                }
+                                                            },
+                                                            "=",
+                                                            {
+                                                                "initializer": {
+                                                                    "assignmentExpression": {
+                                                                        "conditionalExpression": {
+                                                                            "logicalOrExpression": {
+                                                                                "logicalAndExpression": {
+                                                                                    "inclusiveOrExpression": {
+                                                                                        "exclusiveOrExpression": {
+                                                                                            "andExpression": {
+                                                                                                "equalityExpression": {
+                                                                                                    "relationalExpression": {
+                                                                                                        "shiftExpression": {
+                                                                                                            "additiveExpression": {
+                                                                                                                "multiplicativeExpression": {
+                                                                                                                    "castExpression": {
+                                                                                                                        "unaryExpression": {
+                                                                                                                            "postfixExpression": {
+                                                                                                                                "primaryExpression": "3"
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
                                                             }
-                                                        }
+                                                        ]
                                                     }
                                                 },
                                                 ";"
@@ -130,7 +158,7 @@
                                                                 {
                                                                     "unaryExpression": {
                                                                         "postfixExpression": {
-                                                                            "primaryExpression": "result"
+                                                                            "primaryExpression": "a"
                                                                         }
                                                                     }
                                                                 },
@@ -197,78 +225,6 @@
                                     {
                                         "blockItem": {
                                             "statement": {
-                                                "expressionStatement": [
-                                                    {
-                                                        "expression": {
-                                                            "assignmentExpression": [
-                                                                {
-                                                                    "unaryExpression": {
-                                                                        "postfixExpression": {
-                                                                            "primaryExpression": "c"
-                                                                        }
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "assignmentOperator": "="
-                                                                },
-                                                                {
-                                                                    "assignmentExpression": {
-                                                                        "conditionalExpression": {
-                                                                            "logicalOrExpression": {
-                                                                                "logicalAndExpression": {
-                                                                                    "inclusiveOrExpression": {
-                                                                                        "exclusiveOrExpression": {
-                                                                                            "andExpression": {
-                                                                                                "equalityExpression": {
-                                                                                                    "relationalExpression": {
-                                                                                                        "shiftExpression": {
-                                                                                                            "additiveExpression": {
-                                                                                                                "multiplicativeExpression": [
-                                                                                                                    {
-                                                                                                                        "multiplicativeExpression": {
-                                                                                                                            "castExpression": {
-                                                                                                                                "unaryExpression": {
-                                                                                                                                    "postfixExpression": {
-                                                                                                                                        "primaryExpression": "a"
-                                                                                                                                    }
-                                                                                                                                }
-                                                                                                                            }
-                                                                                                                        }
-                                                                                                                    },
-                                                                                                                    "*",
-                                                                                                                    {
-                                                                                                                        "castExpression": {
-                                                                                                                            "unaryExpression": {
-                                                                                                                                "postfixExpression": {
-                                                                                                                                    "primaryExpression": "b"
-                                                                                                                                }
-                                                                                                                            }
-                                                                                                                        }
-                                                                                                                    }
-                                                                                                                ]
-                                                                                                            }
-                                                                                                        }
-                                                                                                    }
-                                                                                                }
-                                                                                            }
-                                                                                        }
-                                                                                    }
-                                                                                }
-                                                                            }
-                                                                        }
-                                                                    }
-                                                                }
-                                                            ]
-                                                        }
-                                                    },
-                                                    ";"
-                                                ]
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "blockItem": {
-                                            "statement": {
                                                 "jumpStatement": [
                                                     "return",
                                                     {
@@ -283,17 +239,33 @@
                                                                                         "equalityExpression": {
                                                                                             "relationalExpression": {
                                                                                                 "shiftExpression": {
-                                                                                                    "additiveExpression": {
-                                                                                                        "multiplicativeExpression": {
-                                                                                                            "castExpression": {
-                                                                                                                "unaryExpression": {
-                                                                                                                    "postfixExpression": {
-                                                                                                                        "primaryExpression": "result"
+                                                                                                    "additiveExpression": [
+                                                                                                        {
+                                                                                                            "additiveExpression": {
+                                                                                                                "multiplicativeExpression": {
+                                                                                                                    "castExpression": {
+                                                                                                                        "unaryExpression": {
+                                                                                                                            "postfixExpression": {
+                                                                                                                                "primaryExpression": "3"
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            }
+                                                                                                        },
+                                                                                                        "+",
+                                                                                                        {
+                                                                                                            "multiplicativeExpression": {
+                                                                                                                "castExpression": {
+                                                                                                                    "unaryExpression": {
+                                                                                                                        "postfixExpression": {
+                                                                                                                            "primaryExpression": "5"
+                                                                                                                        }
                                                                                                                     }
                                                                                                                 }
                                                                                                             }
                                                                                                         }
-                                                                                                    }
+                                                                                                    ]
                                                                                                 }
                                                                                             }
                                                                                         }
